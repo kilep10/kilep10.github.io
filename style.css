@@ -1,0 +1,193 @@
+html{
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: 'font', sans-serif;
+}
+
+.container{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+img{
+    max-width: 100%;
+}
+
+.header{
+    color: #2E4555;
+}
+
+.da{
+    box-shadow:  0px 0px 20px rgba(46, 69, 85, 0.1);
+}
+
+.up-menu{
+    padding-top: 26px;
+    padding-bottom: 26px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.messegers{
+    padding-left: 18px;
+    display: flex;
+}
+
+.adress{
+    
+    font-size: 24px;
+    padding-left: 547px;
+    padding-right: 135px;
+}
+
+.ad{
+   padding-left: 20px; 
+}
+
+.menu {
+    padding-top: 36px;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-item {
+    font-weight: 700;
+font-weight: 700;
+font-size: 24px;
+
+}
+
+
+
+
+
+.main{
+    color: #2E4555;
+    padding-top: 90px;
+    padding-bottom: 270px;
+}
+
+.kont{
+    padding-bottom: 60px;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.text{
+    padding-left: 20px;
+}
+
+.adress2{
+    padding-left: 115px;
+}
+
+.main-place{
+    display: flex;
+}
+
+.maps{
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 60px;
+}
+
+.dog{
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.messegers3{
+    padding-top: 62px;
+    padding-left: 160px;
+}
+
+.ad3{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+
+
+
+
+
+.footer{
+    padding-top: 40px;
+    padding-bottom: 255px;
+    background-color: #2D64A1;
+    color: #FFFFFF;
+}
+
+.footer-main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-menu{
+    font-weight: 700;
+font-size: 24px;
+    list-style: none;
+}
+
+.footer-menu li{
+
+    margin-bottom: 20px;
+}
+
+.messegers2{
+    display: flex;
+}
+
+.ad2{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.DA{
+    align-items: center;
+    padding-bottom: 60px;
+}
+
+.texts{
+    font-size: 24px;
+    color: black;
+    padding-left: 160px;
+}
+
+.text1{
+    max-width: 735px;
+    line-height: 32px;
+    padding-bottom: 30px;
+}
+
+.text2{
+    line-height: 32px;
+}
